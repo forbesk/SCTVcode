@@ -43,7 +43,7 @@
 // V 1.1.1 05/14/22 DF  Adding SCT-A board with Teensy 4.1, different I/O pins
 // V 1.2.0 12/14/22 DF  Updated USB host library local copy
 
-char versionNo[]  = "Version 1.2.0\n";
+char versionNo[]  = "Version 1.2.1 KF\n";
 
 // THINGS TO DO
 

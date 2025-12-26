@@ -189,12 +189,17 @@ void loop()
       {
         reset_tetris();
       }
+      if (theClock == 8)
+      {
+        resetSnow();
+      }
       EncDir = 0;
     }
     whichList = ClkList[theClock];       // point to the clock drawlist we are displaying now
     if (theClock == 0) DrawClk();        // clock 0 has hands to draw
     if (theClock == 1) doPong();         // clock 1 is Pong
     if (theClock == 2) drawTetris();     // clock 2 is Tetris
+    if (theClock == 8) doSnow();     // custom game
     if (pushed) 
     {
       whichList = mainMenu;
